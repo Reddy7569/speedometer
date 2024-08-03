@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  color: #ffffff;
+}
+.main_container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  padding: 15px 0px;
+}
+img {
+  height: 400px;
+  width: 400px;
+}
+.main_container div {
+  display: flex;
+}
+.ac_btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 12px;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+p {
+  margin: 10px 0px;
+}
+.ap_btn {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
